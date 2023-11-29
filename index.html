@@ -6,65 +6,66 @@
     <script src = "script.js" defer></script>
 </head>
 <body>
-    <form>
-    <section>
+    <form id="form">
+    <section id = "sectionOne">
         <h3>This is the first question.</h3>
         <div>
-            <input type="radio" name="q_one" id="first_answer">
-            <label for = "first_answer">This is the first answer.</label>
+            <input type="radio" name="q_one" id="first_answer_one" required>
+            <label for = "first_answer">This is the correct answer.</label>
 
         </div>
         <div>
-            <input type="radio" name="q_one" id="second_answer">
-            <label for = "second_answer">This is the second answer.</label>
+            <input type="radio" name="q_one" id="second_answer_one" required>
+            <label for = "second_answer">This is the wrong answer.</label>
         </div>
         <div>
-            <input type="radio" name="q_one" id="second_answer">
-            <label for = "second_answer">This is the second answer.</label>
+            <input type="radio" name="q_one" id="second_answer_one" required>
+            <label for = "second_answer">This is the wrong answer.</label>
 
         </div>
     </section>
 
-    <section>
+    <section id = "sectionTwo">
         <h3>This is the second question.</h3>
 
         <div>
-            <input type="radio" name="q_two" id="first_answer">
-            <label for = "first_answer">This is the first answer.</label>
+            <input type="radio" name="q_two" id="first_answer_two" required>
+            <label for = "first_answer">This is the correct answer.</label>
 
         </div>
         <div>
-            <input type="radio" name="q_two" id="second_answer">
-            <label for = "second_answer">This is the second answer.</label>
+            <input type="radio" name="q_two" id="second_answer_two" required>
+            <label for = "second_answer">This is the wrong answer.</label>
 
         </div>
         <div>
-            <input type="radio" name="q_two" id="second_answer">
-            <label for = "second_answer">This is the second answer.</label>
+            <input type="radio" name="q_two" id="second_answer_two" required>
+            <label for = "second_answer">This is the wrong answer.</label>
 
         </div>
     </section>
-    <section>
+    <section id = "sectionThree">
         <h3>This is the third question.</h3>
 
         <div>
-            <input type="radio" name="q_three" id="first_answer">
-            <label for = "first_answer">This is the first answer.</label>
+            <input type="radio" name="q_three" id="first_answer_three" required>
+            <label for = "first_answer">This is the wrong answer.</label>
 
         </div>
         <div>
-            <input type="radio" name="q_three" id="second_answer">
-            <label for = "second_answer">This is the second answer.</label>
+            <input type="radio" name="q_three" id="second_answer_three" required>
+            <label for = "second_answer">This is the correct answer.</label>
 
         </div>
         <div>
-            <input type="radio" name="q_three" id="second_answer">
-            <label for = "second_answer">This is the second answer.</label>
+            <input type="radio" name="q_three" id="second_answer_three" required>
+            <label for = "second_answer">This is the wrong answer.</label>
 
         </div>
     </section>
 
     <button type="submit">Submit</button>
+    <button type = "reset" id="resetButton">Reset</button>
     </form>
 </body>
 </html>
